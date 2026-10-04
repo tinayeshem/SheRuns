@@ -1,2 +1,4 @@
    BackEnd/data/
    *.osm.pbf
+   .env
+   node_modules/
