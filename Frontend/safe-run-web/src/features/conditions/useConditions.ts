@@ -7,7 +7,8 @@ export type Conditions = {
   aqiLabel: string;
 };
 
-const LUBLIN = { lat: 51.2465, lng: 22.5684 };
+const LUBLIN = { lat: 50.0647, lng: 19.945 };
+
 
 function aqiLabel(aqi: number) {
   if (aqi <= 20) return "Good";

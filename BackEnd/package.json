@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
+    "import:pbf": "tsx src/workers/importFromPbf.ts",
+    "compute:neighbors": "tsx src/workers/computeNeighbors.ts",
+    "import:places": "tsx src/workers/importPlaces.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +19,7 @@
     "cors": "^2.8.6",
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
+    "osm-pbf-parser": "^2.3.0",
     "pg": "^8.23.1"
   },
   "devDependencies": {
